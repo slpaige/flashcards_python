@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: id(a) == id(b)
+- text: id(a) is id(b)
+- text: a is b
+- text: a == b
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8079#comment
+status: Solved
+record: -1
+custom_name: Are they the same?
+local_check: false

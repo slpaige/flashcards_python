@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>get_inverse(number)</code>
+- text: <code>get_opposite(number)</code>
+- text: <code>is_even(number)</code>
+- text: <code>get_opposite_and_inverse(number)</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9572#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # work with this variable
+    string = input()
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9151#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 05 Jan 2023 02:24:20 UTC"
+record: -1

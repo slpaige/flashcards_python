@@ -1,0 +1,22 @@
+<h2>Number</h2>
+<html><body><p>Below you can see a function that reads a number from input and prints some information about that number.</p>
+<pre><code class="language-python">def get_number_information():
+    number = int(input("Enter a number:"))
+    is_even = number % 2 == 0
+    squared = number ** 2
+    square_root = number ** 0.5
+    opposite = -number
+    inverse = 1 / number
+    
+    print("You entered", number)
+    print("Information about this number:")
+    print("Even:", is_even)
+    print("Square =", squared)
+    print("Square root =", square_root)
+    print("Opposite =", opposite)
+    print("Inverse =", inverse)
+    
+</code></pre>
+<p>For the moment, all the operations we can do with our number, and all the information we can get about it is put into the single function <code class="language-python">get_number_information()</code>. This is not very convenient. </p>
+<p>Let's instead decompose this code into several functions. We will make a <strong>separate </strong>function for <strong>each </strong>mathematical operation. </p>
+<p>Take a look at the names of the functions below, and choose the ones that we should create. </p></body></html>
